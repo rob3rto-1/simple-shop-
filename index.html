@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Tienda en Línea</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-p1CmYgKx6ZI/ZCFwbO+eYTVNLN93DlCKRv3CalASt2vq1DylK9eJZkxvjGHkN9Z9B+VWZRG4EJI2l6m5FV3DLg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <header>
+    <div class="logo">Mi<strong>Tienda</strong></div>
+    <div class="cart">
+      <i class="fas fa-shopping-cart"></i>
+      <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <main>
+    <h1>Productos Destacados</h1>
+    <div class="products-grid">
+      <!-- Producto 1 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Producto+1" alt="Producto 1">
+        <h2>Zapatos Deportivos</h2>
+        <p class="price">$45.00</p>
+        <button class="add-btn" data-price="45.00">Agregar al carrito</button>
+      </div>
+      <!-- Producto 2 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Producto+2" alt="Producto 2">
+        <h2>Reloj Inteligente</h2>
+        <p class="price">$120.00</p>
+        <button class="add-btn" data-price="120.00">Agregar al carrito</button>
+      </div>
+      <!-- Producto 3 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Producto+3" alt="Producto 3">
+        <h2>Auriculares Bluetooth</h2>
+        <p class="price">$80.00</p>
+        <button class="add-btn" data-price="80.00">Agregar al carrito</button>
+      </div>
+      <!-- Producto 4 -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200x150?text=Producto+4" alt="Producto 4">
+        <h2>Mochila Urbana</h2>
+        <p class="price">$55.00</p>
+        <button class="add-btn" data-price="55.00">Agregar al carrito</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Tienda en Línea. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
